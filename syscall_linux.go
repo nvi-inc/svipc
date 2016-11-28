@@ -1,11 +1,9 @@
 package svipc
 
-// mksyscall.pl -l32 syscall_linux.go syscall_linux_386.go
-
-// import "unsafe"
+// mksyscall.pl syscall_linux.go syscall_linux_386.go
 
 //sys Shmget(key int, size int, flags int) (id uintptr, err error)
-//sys Shmat(id int, addr uintptr, flags int) (addr unsafe.Pointer, err error)
+//sys Shmat(id int, targaddr uintptr, flags int) (addr unsafe.Pointer, err error)
 //sys Shmctl(id int, cmd uintptr, shmid *ShmId) (err error)
 //sys Shmdt(addr unsafe.Pointer) (err error)
 

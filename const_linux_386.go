@@ -1,0 +1,18 @@
+package svipc
+
+const (
+	IPCOP_SEMOP      = 1
+	IPCOP_SEMGET     = 2
+	IPCOP_SEMCTL     = 3
+	IPCOP_SEMTIMEDOP = 4
+	IPCOP_MSGSND     = 11
+	IPCOP_MSGRCV     = 12
+	IPCOP_MSGGET     = 13
+	IPCOP_MSGCTL     = 14
+	IPCOP_SHMAT      = 21
+	IPCOP_SHMDT      = 22
+	IPCOP_SHMGET     = 23
+	IPCOP_SHMCTL     = 24
+
+	IPC_64 = 0x0100
+)

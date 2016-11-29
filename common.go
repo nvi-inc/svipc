@@ -30,6 +30,18 @@ const (
 	IPC_SET  = 1
 	IPC_STAT = 2
 	IPC_INFO = 3
+
+	SEM_UNDO = 0x1000
+	GETPID   = 11
+	GETVAL   = 12
+	GETALL   = 13
+	GETNCNT  = 14
+	GETZCNT  = 15
+	SETVAL   = 16
+	SETALL   = 17
+
+	SEM_STAT = 18
+	SEM_INFO = 19
 )
 
 func Ftok(path string, id uint64) (IpcKey, error) {

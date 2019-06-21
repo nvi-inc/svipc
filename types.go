@@ -11,7 +11,7 @@ package svipc
 */
 import "C"
 
-type IpcKey C.int
+type IpcKey C.key_t
 
 type IpcPerm C.struct_ipc_perm
 

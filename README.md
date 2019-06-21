@@ -1,4 +1,4 @@
-#SysV IPC for Go
+# SysV IPC for Go
 
 This library implements SysV IPC commands on Linux using system calls rather than `cgo`.
 
